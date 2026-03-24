@@ -1,0 +1,100 @@
+# Customer OnBoarding System
+
+A full‑stack customer onboarding web application built with **React (Vite)** for the frontend and **Node.js + Express** for the backend.  
+This project demonstrates a basic customer onboarding workflow including UI pages and backend APIs.
+
+---
+
+## 🧰 Tech Stack
+
+**Frontend**
+- React.js (via Vite)
+- Tailwind CSS (utility‑first styling)
+- JavaScript
+
+**Backend**
+- Node.js
+- Express.js
+- REST‑style API routing
+
+**Other**
+- Axios (for HTTP requests from frontend)
+- nodemon (for backend development)
+
+---
+
+## 📁 Project Structure
+
+
+Customer‑OnBoarding‑System/
+│
+├─ backend/ # Express backend APIs
+│ ├─ config/ # Configuration files
+│ ├─ controllers/ # API logic
+│ ├─ models/ # Data models (if using DB)
+│ ├─ routes/ # API route definitions
+│ ├─ services/ # Backend utilities/services
+│ ├─ app.js # Express app setup
+│ └─ server.js # Server entry point
+│
+├─ frontend/ # React + Vite frontend
+│ ├─ public/ # Static assets
+│ ├─ src/ # React source files
+│ ├─ package.json
+│ └─ README.md # Vite React template readme
+│
+├─ .gitignore
+└─ package‑lock.json
+
+:contentReference[oaicite:1]{index=1}
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get the project up and running locally:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/prakashdb-web/Customer-OnBoarding-System.git
+cd Customer-OnBoarding-System
+
+2️⃣ Backend Setup
+cd backend
+npm install
+
+Start the server (default Express port usually 5000 or as configured):
+
+npm start
+
+3️⃣ Frontend Setup
+cd frontend
+npm install
+
+Start the Vite dev server:
+
+npm run dev
+
+Open the URL shown in terminal (commonly http://localhost:5173
+) to view the app.
+
+📌 Features (Planned / Included)
+
+✔️ Simple dashboard UI for onboarding
+✔️ Form pages to capture customer details
+✔️ Backend API routes for customer handling
+✔️ Modular structure for development scaling
+
+🛠 Usage Tips
+Backend API — Use tools like Postman or frontend UI to hit routes exposed through Express
+Frontend UI — Hosted locally via Vite with hot‑reload
+Environments — Add .env files for backend configuration (like ports, database credentials) but make sure to include them in .gitignore
+🧠 Contributions
+
+Contributions are welcome!
+
+Fork this repository
+Create a new branch (git checkout -b feature/YourIdea)
+Commit your changes (git commit -m "Add some feature")
+Push branch and make a Pull Request
